@@ -16,10 +16,10 @@ class RouteRegistrar
     /**
      * Create a new route registrar instance.
      *
-     * @param  \Illuminate\Contracts\Routing\Registrar  $router
+     * @param $router
      * @return void
      */
-    public function __construct(Router $router)
+    public function __construct($router)
     {
         $this->router = $router;
     }
